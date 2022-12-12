@@ -1,0 +1,20 @@
+<div class="form-signin">
+
+  <h1>Please sign in</h1>
+  <form name="my-form" #productsForm="ngForm" (ngSubmit)="onSubmit(productsForm.value)">
+
+    <input type="text" name="username" placeholder="Email address" ngModel/>
+    
+    <input type="password" name="password" placeholder="Password" ngModel />
+    
+    <div class="lemin-captcha">
+      <lemin-cropped-captcha
+      [containerId]="containerId"
+      [captchaId]="captchaId"
+      ></lemin-cropped-captcha>
+    </div>
+    
+    <input type="submit" value="Sign in">
+  </form>
+</div>
+

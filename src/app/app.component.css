@@ -1,0 +1,24 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-signin input{
+  height: 50px;
+  width: 97.5%;
+  margin-bottom: 15px !important;
+}
+
+.lemin-captcha{
+  height: 50px;
+  width: 100%;
+}
+
+.form-signin input[type=submit]{
+  margin-top: 30px;
+  width: 100%;
+  background-color: rgb(64, 108, 255);
+  border-radius: 5px;
+}
