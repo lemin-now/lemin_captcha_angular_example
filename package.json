@@ -19,9 +19,9 @@
     "@angular/platform-browser": "^17.3.6",
     "@angular/platform-browser-dynamic": "^17.3.6",
     "@angular/router": "^17.3.6",
-    "@leminnow/ng-lemin-cropped-captcha": "^0.2.2",
+    "@leminnow/ng-lemin-cropped-captcha": "^0.3.0",
     "axios": "^1.6.8",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "^0.14.4"
