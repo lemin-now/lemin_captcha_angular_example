@@ -101,6 +101,5 @@
         }
       }
     }
-  },
-  "defaultProject": "lemin-captcha-angular-example"
+  }
 }
