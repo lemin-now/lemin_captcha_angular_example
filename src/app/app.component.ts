@@ -5,12 +5,13 @@ import axios from 'axios';
 
 @Component({
   selector: 'app-root',
+  standalone: false,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   @ViewChild(LeminCroppedCaptchaComponent) leminCroppedCaptcha!: LeminCroppedCaptchaComponent;
-  
+
   captchaId = 'YOUR_CAPTCHA_ID';
   containerId = 'YOUR_CONTAINER_ID';
 
@@ -27,9 +28,9 @@ export class AppComponent {
 
   onSubmit(contents: {username: '', password: ''}){
     const leminData = this.leminCroppedCaptcha.getCaptchaValue();
-    
+
     // const leminData = this.getCaptchaValues(); second way to get values
-    
+
     if (!leminData || !contents.username || !contents.password) {
       alert('Oops!..CAPTCHA answer has not been verified!');
       return;
@@ -52,6 +53,6 @@ export class AppComponent {
         })
   }
 
- 
+
 }
 
