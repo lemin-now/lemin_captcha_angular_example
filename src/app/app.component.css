@@ -12,7 +12,7 @@
 }
 
 .lemin-captcha{
-  height: 50px;
+  height: min-content;
   width: 100%;
 }
 
